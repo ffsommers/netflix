@@ -11,17 +11,26 @@ helpers do
   	comedy_directors =["Woody Allen", "Mel Brooks", "Alexander Payne", "Joel Coen", "Terry Gilliam",  "Martin McDonagh"] 
 
     client = NetflixRoulette::Client.new(director: comedy_directors.sample)
-		  puts client.fetch
+
+		  hash = {
+
+		  }
 		  puts comedy = client.fetch.first
-		   return comedy["show_title"]
+		    hash["title"] = comedy["show_title"]
+		    hash["poster"] = comedy["poster"] 
+		  return hash  
   end
 
   def roulette_action
    action_directors = ["Michael Bay","John McTiernan","Tony Scott","James Cameron","Steven Spielberg","Peter Jackson","John Woo","Ridley Scott"]
    client = NetflixRoulette::Client.new(director: action_directors.sample)
-		
+		  hash = {
+
+		  }
 		   action = client.fetch.first
-		   return action["show_title"]
+		   hash["title"] = action["show_title"]
+		   hash["poster"] = action["poster"] 
+		   return hash
   end 	
   
   def roulette_documentary 

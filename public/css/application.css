@@ -1,16 +1,26 @@
 body{ 
  background-color: gray;
 }
-
+header a{
+	color:white;
+}
 .container{
 	margin:5% auto 5%;
 	width:80%;
 	border: solid red 6px;
 	border-radius: 5%;
+	box-shadow: 10px 10px 5px black;
 	padding:5%;
 }
  .container h1{
+ 	text-align: center;
  	color: red;
+ 	text-shadow: 2px 2px black;
+ }
+
+ .container p{
+ 	text-align: center;
+ 	color:white;
  }
 .suggestion {
 	margin: auto;
@@ -18,4 +28,15 @@ body{
 	width:50%;
 	background-color: gray;
 	color: orange;
+}
+#action{
+	display: inline-block;
+	color: red;
+
+
+}
+#comedy{
+  display: inline-block;
+	color: red;
+	padding: 5px;
 }
