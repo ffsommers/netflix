@@ -15,7 +15,7 @@ helpers do
 		  hash = {
 
 		  }
-		  puts comedy = client.fetch.first
+		   comedy = client.fetch.first
 		    hash["title"] = comedy["show_title"]
 		    hash["poster"] = comedy["poster"] 
 		  return hash  
