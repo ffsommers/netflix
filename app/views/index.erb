@@ -1,20 +1,17 @@
 <div class="container"> 
 <h1>NETFLIX TONIGHT!</h1>
 <p>choose a category from the drop down to get randomly get something to watch</p>
-<form action="/netflix"  method="post">
-	<select>
-		<option name="netflix[category"] value = "comedy">comedy</option>
-		<option name="netflix[category"] value = "action">action</option>
-		<option name="netflix[category"] value = "drama">drama</option>
-		<option name="netflix[category"] value = "documentary">documentary</option>
-		<option name="netflix[category"] value = "scifi">sci-fi</option>
-	</select>
-	<input type="submit" value="choose">
+<form id="comedy" action="/netflix/comedy"  method="post">
+	<input type = "button" value="comedy">
+</form>
+<form id="action" action="/netflix/action"  method="post">
+	<input type = "button" value="action">
 </form>
 
 <div class="suggestion">
-	<h2>append suggestion here</h2>
-	<%# get_netflix %>
+	
+
+
 </div>
 
 </div>

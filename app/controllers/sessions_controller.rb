@@ -20,7 +20,7 @@ end
 
 
 # delete '/sessions/:id' do
-delete '/sessions' do
+get '/sessions/logout' do
   # session[:id] = nil
   logout 
   redirect '/'

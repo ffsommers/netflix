@@ -1,0 +1,21 @@
+body{ 
+ background-color: gray;
+}
+
+.container{
+	margin:5% auto 5%;
+	width:80%;
+	border: solid red 6px;
+	border-radius: 5%;
+	padding:5%;
+}
+ .container h1{
+ 	color: red;
+ }
+.suggestion {
+	margin: auto;
+	padding: 20px;
+	width:50%;
+	background-color: gray;
+	color: orange;
+}
