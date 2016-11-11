@@ -13,7 +13,7 @@ require 'pathname'
 require 'httparty'
 require 'dotenv'
 Dotenv.load
-
+require 'netflix_roulette'
 require 'pg'
 require 'active_record'
 require 'logger'

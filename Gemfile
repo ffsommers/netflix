@@ -18,6 +18,7 @@ gem 'pry'
 gem 'awesome_print'
 
 gem 'faker'
+gem 'netflix_roulette'
 
 group :test do
   gem 'shoulda-matchers'
